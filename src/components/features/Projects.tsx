@@ -79,7 +79,7 @@ export default function Projects() {
 
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-20">
               <Image
-                src="/assets/img/MacBook-air-M2.svg"
+                src="/assets/img/MacBook-Air-M2.svg"
                 alt="TernaQin dashboard"
                 width={1000}
                 height={750}
