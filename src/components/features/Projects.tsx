@@ -40,7 +40,7 @@ export default function Projects() {
     <section
       ref={sectionRef}
       id="Projects"
-      className="h-screen flex pt-15 flex-col px-6 py-8 lg:px-12 xl:px-20 bg-[#fafafa] sticky top-0 z-40 overflow-y-auto"
+      className="min-h-[120vh] h-screen flex pt-15 flex-col px-6 py-8 lg:px-12 xl:px-20 bg-[#fafafa] sticky top-0 z-40 overflow-y-auto"
     >
       <div className="container mx-auto flex flex-col gap-15 flex-1 ">
         <div className="w-full flex items-start justify-between gap-6 flex-shrink-0">
@@ -102,7 +102,7 @@ export default function Projects() {
               <p className="text-[#A5A5A5] text-base">Business Development</p>
             </div>
 
-            <div className="relative z-20 flex flex-col lg:gap-4 md:gap-2">
+            <div className="relative z-20 flex flex-col lg:gap-6 md:gap-3">
               <h2 className="text-7xl font-bold">TernaQin</h2>
               <div className="relative z-10 mt-4 flex items-center justify-between text-sm">
                 <span className="text-[#FFFFFF]">Live Website</span>

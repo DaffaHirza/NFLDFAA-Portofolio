@@ -73,11 +73,11 @@ export default function Services() {
   return (
     <section
       id="Services"
-      className="min-h-screen bg-[#fafafa] flex items-start justify-center py-3 lg:px-3 relative overflow-hidden sticky top-0 z-30"
+      className="min-h-[120vh] bg-[#fafafa] flex items-start justify-center py-3 lg:px-3 relative sticky top-0 z-30 overflow-y-auto"
     >
-      <div className="hidden lg:block relative w-full h-full max-h-9/10">
-        <div className="relative z-10 h-full rounded-[32px] bg-[#131313] flex items-center px-12 xl:px-16">
-          <div className="w-full py-12 flex flex-col justify-between">
+      <div className="hidden lg:block relative w-full h-screen">
+        <div className="relative z-10 h-full rounded-[32px] bg-[#131313] overflow-y-auto">
+          <div className="w-full py-12 px-12 xl:px-16 flex flex-col min-h-full">
             <div className="flex items-center justify-between mb-12">
               <div className="flex items-center gap-3 text-white">
                 <div>
@@ -94,7 +94,9 @@ export default function Services() {
                     />
                   </svg>
                 </div>
-                <span className="text-sm">My Areas of Expertise</span>
+                <span className="text-2xl font-bold">
+                  My Areas of Expertise
+                </span>
               </div>
               <h1 className="text-5xl md:text-7xl font-bold text-white">
                 Services
@@ -185,7 +187,15 @@ export default function Services() {
             </div>
 
             <div className="mt-3">
-              <button className="bg-white text-black px-8 py-3 rounded-full font-medium hover:bg-gray-200 transition-colors">
+              <button
+                onClick={() => {
+                  const contactSection = document.getElementById("Contact");
+                  if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
+                className="bg-white text-black px-8 py-3 rounded-full font-medium hover:bg-gray-200 transition-colors"
+              >
                 Get Started
               </button>
             </div>

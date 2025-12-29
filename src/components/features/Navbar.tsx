@@ -49,7 +49,7 @@ export default function Navbar() {
         }
       }
 
-      const offset = 20; 
+      const offset = 20;
 
       window.scrollTo({
         top: totalScroll + offset,
@@ -69,7 +69,7 @@ export default function Navbar() {
           scrolled ? "bg-[#fafafa]" : "bg-[#fafafa]"
         }`}
       >
-        <nav className="container mx-auto sm:px-6 lg:px-15 py-4 flex justify-between items-center">
+        <nav className="container mx-auto px-6 lg:px-12 xl:px-20 py-4 md:py-5 flex justify-between items-center">
           <div className="flex items-center">
             <Link
               href="/"
