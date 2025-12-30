@@ -73,11 +73,11 @@ export default function Services() {
   return (
     <section
       id="Services"
-      className="min-h-[120vh] bg-[#fafafa] flex items-start justify-center py-3 lg:px-3 relative sticky top-0 z-30 overflow-y-auto"
+      className="h-screen bg-[#fafafa] flex items-start justify-center py-3 lg:px-3 relative overflow-y-auto sticky top-0 z-30"
     >
-      <div className="hidden lg:block relative w-full h-screen">
-        <div className="relative z-10 h-full rounded-[32px] bg-[#131313] overflow-y-auto">
-          <div className="w-full py-12 px-12 xl:px-16 flex flex-col min-h-full">
+      <div className="hidden lg:block relative w-full">
+        <div className="relative z-10 w-full min-h-[calc(100vh-1.5rem)] rounded-[32px] bg-[#131313]">
+          <div className="w-full py-12 px-12 xl:px-16">
             <div className="flex items-center justify-between mb-12">
               <div className="flex items-center gap-3 text-white">
                 <div>
@@ -94,9 +94,7 @@ export default function Services() {
                     />
                   </svg>
                 </div>
-                <span className="text-2xl font-bold">
-                  My Areas of Expertise
-                </span>
+                <span className="text-2xl">My Areas of Expertise</span>
               </div>
               <h1 className="text-5xl md:text-7xl font-bold text-white">
                 Services

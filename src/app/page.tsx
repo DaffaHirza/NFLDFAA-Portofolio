@@ -28,7 +28,7 @@ export default function Home() {
         >
           <Navbar />
         </div>
-        <div className="pt-17">
+        <div className="lg:pt-18">
           <Hero />
           <About />
           <Services />

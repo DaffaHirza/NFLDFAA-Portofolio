@@ -23,24 +23,16 @@ export default function Footer() {
       return;
     }
 
+    // Hitung total scroll dengan viewport height untuk sticky sections
     let totalScroll = 0;
 
     for (let i = 0; i < targetIndex; i++) {
-      const section = document.getElementById(sections[i]);
-      if (section) {
-        const container = section.querySelector('[class*="min-h"]');
-        if (container) {
-          totalScroll += container.scrollHeight;
-        } else {
-          totalScroll += section.scrollHeight;
-        }
-      }
+      // Setiap section sticky mengambil 1 viewport height
+      totalScroll += window.innerHeight;
     }
 
-    const offset = 20;
-
     window.scrollTo({
-      top: totalScroll + offset,
+      top: totalScroll,
       behavior: "smooth",
     });
   };

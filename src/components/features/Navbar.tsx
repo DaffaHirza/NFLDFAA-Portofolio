@@ -35,24 +35,16 @@ export default function Navbar() {
         return;
       }
 
+      // Hitung total scroll dengan viewport height untuk sticky sections
       let totalScroll = 0;
 
       for (let i = 0; i < targetIndex; i++) {
-        const section = document.getElementById(sections[i]);
-        if (section) {
-          const container = section.querySelector('[class*="min-h"]');
-          if (container) {
-            totalScroll += container.scrollHeight;
-          } else {
-            totalScroll += section.scrollHeight;
-          }
-        }
+        // Setiap section sticky mengambil 1 viewport height
+        totalScroll += window.innerHeight;
       }
 
-      const offset = 20;
-
       window.scrollTo({
-        top: totalScroll + offset,
+        top: totalScroll,
         behavior: "smooth",
       });
     }, 300);
@@ -69,7 +61,7 @@ export default function Navbar() {
           scrolled ? "bg-[#fafafa]" : "bg-[#fafafa]"
         }`}
       >
-        <nav className="container mx-auto px-6 lg:px-12 xl:px-20 py-4 md:py-5 flex justify-between items-center">
+        <nav className="container mx-auto lg:px-12 xl:px-20 py-4 md:py-5 flex justify-between items-center">
           <div className="flex items-center">
             <Link
               href="/"
