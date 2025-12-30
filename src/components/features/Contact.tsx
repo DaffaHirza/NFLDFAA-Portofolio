@@ -185,10 +185,10 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-            <div className="w-2/5 h-screen flex flex-col justify-center items-center">
+            <div className="w-2/5 h-screen py-15">
               <form
                 onSubmit={handleSubmit}
-                className="flex flex-col w-full bg-white p-6 rounded-xl backdrop-blur-md"
+                className="flex flex-col justify-center h-full w-full bg-white p-6 rounded-xl backdrop-blur-md"
               >
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-[#131313] from-0% to-[#FFFFFF] to-90% bg-[length:200%_100%] bg-clip-text text-transparent">
                   NFLDFAA.
@@ -273,7 +273,7 @@ export default function Contact() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-[#131313] text-white font-semibold py-3 mt-5 rounded-full hover:bg-[#000000] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="bg-[#131313] text-white font-semibold py-3 mt-7 rounded-full hover:bg-[#000000] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </button>

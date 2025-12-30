@@ -265,7 +265,7 @@ export default function Footer() {
 
         <div className="grid grid-cols-2 mb-12 pb-5">
           <div className="col-2 flex flex-col items-start gap-2">
-            <h2 className="text-[9rem] leading-none font-bold bg-[linear-gradient(to_right,#131313_0%,#131313_10%,#4d4d4d_30%,#9d9d9d_60%,#d6d6d6_85%,#8a8a8a_100%)] bg-clip-text text-transparent">
+            <h2 className="xl:text-[9rem] md:text-[7.5rem] leading-none font-bold bg-[linear-gradient(to_right,#131313_0%,#131313_10%,#4d4d4d_30%,#9d9d9d_60%,#d6d6d6_85%,#8a8a8a_100%)] bg-clip-text text-transparent">
               NFLDFAA.
             </h2>
             <p className="text-2xl px-2 font-semibold text-[#131313] -mt-1">
