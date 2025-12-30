@@ -102,10 +102,10 @@ export default function Projects() {
               <p className="text-[#A5A5A5] text-base">Business Development</p>
             </div>
 
-            <div className="relative z-20 flex flex-col xl:gap-4 md:gap-21">
+            <div className="relative z-20 flex flex-col gap-5 lg:gap-4 ">
               <h2 className="text-7xl font-bold">TernaQin</h2>
               <div className="relative z-10 mt-4 flex items-center justify-between text-sm">
-                <span className="text-[#FFFFFF]">Live Website</span>
+                <span className="text-[#FFFFFF] text-base">Live Website</span>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M9.42578 5.98828L18.0101 5.98828L18.0101 14.5726"
@@ -172,10 +172,10 @@ export default function Projects() {
 
           <div className="flex flex-col h-full lg:col-span-4 bg-white rounded-3xl p-6 gap-5">
             <div>
-              <h3 className="text-2xl font-semibold text-gray-900">
+              <h3 className="text-4xl font-semibold text-gray-900">
                 MediSynch
               </h3>
-              <p className="text-[#A5A5A5] text-2xl mb-4">
+              <p className="text-[#A5A5A5] text-base mb-4">
                 Gemastik Competition
               </p>
             </div>
@@ -218,7 +218,7 @@ export default function Projects() {
               <h2 className="text-7xl font-bold text-gray-900 mb-3">
                 20<span className="text-[#A5A5A5]">+</span>
               </h2>
-              <p className="text-[#A5A5A5] text-lg">Portfolio Projects</p>
+              <p className="text-[#A5A5A5] text-base">Portfolio Projects</p>
             </div>
 
             <a

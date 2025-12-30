@@ -122,8 +122,10 @@ export default function Contact() {
                     Fast Response
                   </p>
                   <p className="text-[#A5A5A5]">
-                    Quick and attentive communication to keep everything moving
-                    smoothly.
+                    Quick and attentive communication to
+                  </p>
+                  <p className="text-[#A5A5A5]">
+                    keep everything moving smoothly.
                   </p>
                 </div>
                 <div className="flex flex-col mt-6">
@@ -179,16 +181,16 @@ export default function Contact() {
                     Structured Next Steps
                   </p>
                   <p className="text-[#A5A5A5]">
-                    Simple and well-outlined actions that guide your progress
-                    with clarity.
+                    Simple and well-outlined actions that guide
                   </p>
+                  <p className="text-[#A5A5A5]">your progress with clarity.</p>
                 </div>
               </div>
             </div>
             <div className="w-2/5 h-screen py-15">
               <form
                 onSubmit={handleSubmit}
-                className="flex flex-col justify-center h-full w-full bg-white p-6 rounded-xl backdrop-blur-md"
+                className="flex flex-col justify-between h-full w-full bg-white p-6 rounded-xl backdrop-blur-md"
               >
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-[#131313] from-0% to-[#FFFFFF] to-90% bg-[length:200%_100%] bg-clip-text text-transparent">
                   NFLDFAA.
@@ -277,7 +279,7 @@ export default function Contact() {
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </button>
-                <p className="text-sm text-gray-300 text-center mt-3">
+                <p className="text-sm text-gray-300 text-center mt-4">
                   By submitting, you acknowledge and accept my terms and privacy
                   policy, along with the way your data will be managed.
                 </p>
