@@ -234,7 +234,7 @@ export default function Contact() {
                     }
                     required
                     placeholder="Your Name"
-                    className="w-full px-4 py-3 rounded-xl bg-white border border-gray-200 text-[#131313] placeholder-gray-400 focus:outline-none focus:border-gray-400"
+                    className="w-full px-4 py-3 rounded-xl bg-[#fafafa] border border-gray-200 text-[#131313] placeholder-gray-400 focus:outline-none focus:border-gray-400"
                   />
                 </div>
                 <div className="py-4">
@@ -254,7 +254,7 @@ export default function Contact() {
                     }
                     required
                     placeholder="Your Email"
-                    className="w-full px-4 py-3 rounded-xl bg-white border border-gray-200 text-[#131313] placeholder-gray-400 focus:outline-none focus:border-gray-400"
+                    className="w-full px-4 py-3 rounded-xl bg-[#fafafa] border border-gray-200 text-[#131313] placeholder-gray-400 focus:outline-none focus:border-gray-400"
                   />
                 </div>
                 <div>
@@ -274,7 +274,7 @@ export default function Contact() {
                     required
                     placeholder="Your Message"
                     rows={1}
-                    className="w-full px-4 py-3 rounded-xl bg-white border border-gray-200 text-[#131313] placeholder-gray-400 focus:outline-none focus:border-gray-400 resize-none"
+                    className="w-full px-4 py-3 rounded-xl bg-[#fafafa] border border-gray-200 text-[#131313] placeholder-gray-400 focus:outline-none focus:border-gray-400 resize-none"
                   />
                 </div>
                 <button
