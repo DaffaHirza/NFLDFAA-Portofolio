@@ -102,7 +102,7 @@ export default function Projects() {
               <p className="text-[#A5A5A5] text-base">Business Development</p>
             </div>
 
-            <div className="relative z-20 flex flex-col gap-3">
+            <div className="relative z-20 flex flex-col xl:gap-4 md:gap-21">
               <h2 className="text-7xl font-bold">TernaQin</h2>
               <div className="relative z-10 mt-4 flex items-center justify-between text-sm">
                 <span className="text-[#FFFFFF]">Live Website</span>

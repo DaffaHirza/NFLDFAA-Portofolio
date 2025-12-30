@@ -194,7 +194,7 @@ export default function Contact() {
                   NFLDFAA.
                 </h1>
 
-                <p className="text-5xl text-[#131313] font-medium py-5">
+                <p className="xl:text-5xl md:text-4xl text-[#131313] font-medium py-5">
                   Thinking About Starting A Project?
                 </p>
 
