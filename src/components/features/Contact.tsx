@@ -55,7 +55,7 @@ export default function Contact() {
       id="Contact"
       className="min-h-screen bg-[#fafafa] flex items-start justify-center lg:px-3 relative overflow-hidden"
     >
-      <div className="hidden lg:block relative w-full h-full py-3">
+      <div className="hidden lg:block relative w-full h-full py-3 ">
         <div className="relative h-full rounded-[32px] overflow-hidden">
           <div className="absolute inset-0">
             <video
@@ -195,7 +195,7 @@ export default function Contact() {
             <div className="col-span-1 h-screen py-15 flex justify-end">
               <form
                 onSubmit={handleSubmit}
-                className="flex flex-col justify-between h-full w-5/6 bg-white p-6 rounded-xl backdrop-blur-md"
+                className="flex flex-col justify-between h-full w-5/6 bg-[#fafafa] p-6 rounded-xl backdrop-blur-md"
               >
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-[#131313] from-0% to-[#FFFFFF] to-90% bg-[length:200%_100%] bg-clip-text text-transparent">
                   NFLDFAA.
