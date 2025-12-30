@@ -70,8 +70,8 @@ export default function Contact() {
             <div className="absolute inset-0 bg-black/88"></div>
           </div>
 
-          <div className="relative z-10 h-screen flex px-12 xl:px-16 gap-15">
-            <div className="w-3/5 h-screen py-15 flex flex-col justify-between items-start gap-4 text-white">
+          <div className="grid grid-cols-2 relative z-10 h-screen px-12 xl:px-16 gap-15">
+            <div className="col-span-1 h-screen py-15 flex flex-col justify-between items-start gap-4 text-white">
               <div>
                 <p className="text-8xl font-bold leading-none tracking-normal pb-5">
                   Let&apos;s Talk
@@ -87,7 +87,7 @@ export default function Contact() {
                 </p>
               </div>
               <div className="w-full h-px bg-white/30 rounded-full"></div>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="w-full flex justify-between">
                 <div className="flex flex-col mt-6">
                   <svg
                     width="60"
@@ -129,68 +129,73 @@ export default function Contact() {
                   </p>
                 </div>
                 <div className="flex flex-col mt-6">
-                  <svg
-                    width="60"
-                    height="60"
-                    viewBox="0 0 60 60"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M14.7496 42.5H45.2246C49.9746 42.5 52.4746 40 52.4746 35.25V5H7.47461V35.25C7.49961 40 9.99962 42.5 14.7496 42.5Z"
-                      stroke="white"
-                      strokeWidth="4"
-                      strokeMiterlimit="10"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M5 5H55"
-                      stroke="white"
-                      strokeWidth="4"
-                      strokeMiterlimit="10"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M20 55L30 50V42.5"
-                      stroke="white"
-                      strokeWidth="4"
-                      strokeMiterlimit="10"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M40 55L30 50"
-                      stroke="white"
-                      strokeWidth="4"
-                      strokeMiterlimit="10"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M18.75 27.5L26.625 20.925C27.25 20.4 28.075 20.55 28.5 21.25L31.5 26.25C31.925 26.95 32.75 27.075 33.375 26.575L41.25 20"
-                      stroke="white"
-                      strokeWidth="4"
-                      strokeMiterlimit="10"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                  <p className="text-3xl font-medium py-2 mt-2">
-                    Structured Next Steps
-                  </p>
-                  <p className="text-[#A5A5A5]">
-                    Simple and well-outlined actions that guide
-                  </p>
-                  <p className="text-[#A5A5A5]">your progress with clarity.</p>
+                  <div className="relative">
+                    <svg
+                      width="60"
+                      height="60"
+                      viewBox="0 0 60 60"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14.7496 42.5H45.2246C49.9746 42.5 52.4746 40 52.4746 35.25V5H7.47461V35.25C7.49961 40 9.99962 42.5 14.7496 42.5Z"
+                        stroke="white"
+                        strokeWidth="4"
+                        strokeMiterlimit="10"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M5 5H55"
+                        stroke="white"
+                        strokeWidth="4"
+                        strokeMiterlimit="10"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M20 55L30 50V42.5"
+                        stroke="white"
+                        strokeWidth="4"
+                        strokeMiterlimit="10"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M40 55L30 50"
+                        stroke="white"
+                        strokeWidth="4"
+                        strokeMiterlimit="10"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M18.75 27.5L26.625 20.925C27.25 20.4 28.075 20.55 28.5 21.25L31.5 26.25C31.925 26.95 32.75 27.075 33.375 26.575L41.25 20"
+                        stroke="white"
+                        strokeWidth="4"
+                        strokeMiterlimit="10"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                    <p className="text-3xl font-medium py-2 mt-2">
+                      Structured Next Steps
+                    </p>
+                    <p className="text-[#A5A5A5]">
+                      Simple and well-outlined actions that guide
+                    </p>
+
+                    <p className="text-[#A5A5A5]">
+                      your progress with clarity.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="w-2/5 h-screen py-15">
+            <div className="col-span-1 h-screen py-15 flex justify-end">
               <form
                 onSubmit={handleSubmit}
-                className="flex flex-col justify-between h-full w-full bg-white p-6 rounded-xl backdrop-blur-md"
+                className="flex flex-col justify-between h-full w-5/6 bg-white p-6 rounded-xl backdrop-blur-md"
               >
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-[#131313] from-0% to-[#FFFFFF] to-90% bg-[length:200%_100%] bg-clip-text text-transparent">
                   NFLDFAA.
