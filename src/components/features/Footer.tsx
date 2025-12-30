@@ -45,7 +45,7 @@ export default function Footer() {
             <div className="flex items-center gap-2">
               <a
                 href={`https://wa.me/6285117300763?text=${encodeURIComponent(
-                  "Halo, Saya ingin mengajak Anda berkolaborasi dalam sebuah proyek. Mari kita bahas langkah selanjutnya!"
+                  "Hello, I would like to invite you to collaborate on a project. Let's discuss the next steps!"
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
