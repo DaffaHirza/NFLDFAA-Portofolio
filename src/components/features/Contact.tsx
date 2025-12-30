@@ -185,10 +185,10 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-            <div className="w-2/5">
+            <div className="w-2/5 h-screen flex flex-col justify-center items-center">
               <form
                 onSubmit={handleSubmit}
-                className="flex flex-col w-full mt-20 bg-white p-6 rounded-xl backdrop-blur-md"
+                className="flex flex-col w-full bg-white p-6 rounded-xl backdrop-blur-md"
               >
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-[#131313] from-0% to-[#FFFFFF] to-90% bg-[length:200%_100%] bg-clip-text text-transparent">
                   NFLDFAA.

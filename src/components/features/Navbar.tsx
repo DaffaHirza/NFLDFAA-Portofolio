@@ -61,7 +61,7 @@ export default function Navbar() {
           scrolled ? "bg-[#fafafa]" : "bg-[#fafafa]"
         }`}
       >
-        <nav className="container mx-auto lg:px-12 xl:px-20 py-4 md:py-5 flex justify-between items-center">
+        <nav className="w-full lg:px-12 xl:px-20 py-4 md:py-5 flex justify-between items-center">
           <div className="flex items-center">
             <Link
               href="/"
