@@ -53,7 +53,7 @@ export default function Contact() {
   return (
     <section
       id="Contact"
-      className="min-h-screen bg-[#fafafa] flex items-center justify-center lg:px-3 relative overflow-hidden"
+      className="min-h-screen bg-[#fafafa] flex items-start justify-center lg:px-3 relative overflow-hidden"
     >
       <div className="hidden lg:block relative w-full h-full py-3">
         <div className="relative h-full rounded-[32px] overflow-hidden">

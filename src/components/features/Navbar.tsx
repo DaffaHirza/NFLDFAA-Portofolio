@@ -21,7 +21,7 @@ export default function Navbar() {
       const el = document.getElementById(id);
       if (!el) return;
 
-      const sections = ["Hero", "About", "Services", "Projects"];
+      const sections = ["Hero", "About", "Services", "Projects", "Contact"];
       const targetIndex = sections.indexOf(id);
 
       if (targetIndex === -1) {
